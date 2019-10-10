@@ -9,8 +9,8 @@ integration: Planned
 ---
 
 
-{{< button text="Custom text">}}
-{{< /button >}}
+{{< buttons/primary text="Custom text">}}
+{{< /buttons/primary >}}
 
 {{< rawhtml >}}
 {{< /rawhtml >}}
