@@ -1,5 +1,5 @@
 <ul class="breadcrumb">
-    {{ template "breadcrumb" dict "currentPage" .Page "id" .UniqueID }}
+    {{ template "breadcrumb" dict "currentPage" .Page "id" .File.UniqueID }}
 </ul>
 
 <!-- templates -->
@@ -8,10 +8,10 @@
 {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
 {{ end }}
 <li>
-    {{ if eq .id .currentPage.UniqueID }}
+    {{ if eq .id .currentPage.File.UniqueID }}
     {{ .currentPage.Title }}
     {{ else }}
-    <a href="{{ .currentPage.URL }}">{{ .currentPage.Title }}</a>
+    <a href="{{ .currentPage.Permalink }}">{{ .currentPage.Title }}</a>
     {{ end }}
 </li>
-{{ end }}
+{{ end }} 

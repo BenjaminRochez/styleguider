@@ -1,0 +1,27 @@
+{{- define "main" -}}
+{{- partial "breadcrumb.html" . -}}
+<h1 class="btn" data-clipboard-text="{{ .Permalink }}">{{ .Title }}</h1>
+
+<p>{{ .Description }}</p>
+
+<div>
+    <h2>Component status</h2>
+    <table>
+        <thead>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Design: </td>
+                <td>{{ .Params.Design }}</td>
+            </tr>
+            <tr>
+                <td>Integration: </td>
+                <td>{{ .Params.Integration }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p>{{ .Content }}</p>
+{{- end -}} 
