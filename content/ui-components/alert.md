@@ -9,3 +9,8 @@ integration: Planned
 ---
 
 
+{{< button text="Custom text">}}
+{{< /button >}}
+
+{{< rawhtml >}}
+{{< /rawhtml >}}

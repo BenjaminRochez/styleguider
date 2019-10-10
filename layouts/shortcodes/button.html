@@ -1,0 +1,7 @@
+<!-- button -->
+{{.Inner}}
+{{ if .IsNamedParams }}
+<button>{{.Get "text" }}</button>
+{{ else }}
+<button>Default text</button>
+{{ end }}
