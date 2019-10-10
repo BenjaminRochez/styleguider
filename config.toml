@@ -1,4 +1,4 @@
-baseURL = "http://styleguider.netlify.com"
+baseURL = "https://styleguider.netlify.com"
 languageCode = "en-us"
 title = "Styleguider"
 sectionPagesMenu = "main"
