@@ -1,0 +1,20 @@
+<div class="mb-10">
+    <h2 class="font-semibold text-3xl mb-6">Component status</h2>
+    <div class="">
+        <div class="flex items-center w-1/2 pb-4 border-b border-gray-400 ">
+            <div class="w-2/3">
+                <img src="{{"img/adobe-xd.png" | absURL}}" alt="Logo of adobe XD" class="w-6 mr-4 inline-block"> 
+                <p class="inline-block">Design</p>
+            </div>
+            
+            <div>{{ .Params.Design }}</div>
+        </div>
+        <div  class="flex items-center w-1/2 pb-4 mt-4 border-b border-gray-400">
+            <div class="w-2/3">
+                <img src="{{"img/vs-code.png" | absURL}}" alt="Logo of VScode" class="w-6 mr-4 inline-block"> 
+                <p class="inline-block">Integration </p>
+            </div>
+            <div>{{ .Params.Integration }}</div>
+        </div>
+    </div>
+</div>

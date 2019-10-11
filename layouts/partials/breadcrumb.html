@@ -1,4 +1,4 @@
-<ul class="breadcrumb">
+<ul class="mb-10">
     {{ template "breadcrumb" dict "currentPage" .Page "id" .File.UniqueID }}
 </ul>
 
@@ -7,11 +7,11 @@
 {{ if .currentPage.Parent }}
 {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
 {{ end }}
-<li>
+<li class="inline-block text-xs text-gray-600 {{ if eq .id .currentPage.File.UniqueID }}text-blue-800 font-bold{{end}}">
     {{ if eq .id .currentPage.File.UniqueID }}
     {{ .currentPage.Title }}
     {{ else }}
-    <a href="{{ .currentPage.Permalink }}">{{ .currentPage.Title }}</a>
+    <a href="{{ .currentPage.Permalink }}">{{ .currentPage.Title }} /</a>
     {{ end }}
 </li>
 {{ end }} 

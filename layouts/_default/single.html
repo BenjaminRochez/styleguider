@@ -1,7 +1,10 @@
 {{- define "main" -}}
-{{- partial "breadcrumb.html" . -}}
-<h1 class="btn" data-clipboard-text="{{ .Permalink }}">{{ .Title }}</h1>
+{{- partial "intro.html" . -}}
 
-<p>{{ .Description }}</p>
-<p>{{ .Content }}</p>
-{{- end -}}
+<div class="px-24 py-10">
+    
+
+    
+    <p>{{ .Content }}</p>
+</div>
+{{- end -}} 

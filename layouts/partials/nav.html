@@ -21,7 +21,7 @@
 {{ if in .Site.Params.menu_exclusion .Section }}
 {{- else -}}
 {{- safeHTML .Params.head -}}
-<li class="{{ if .IsAncestor $currentNode }}bg-gray-200 font-bold {{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}font-bold{{ end }}{{ if .Params.alwaysopen }} bg-gray-200{{ end }} py-1 rounded-lg hover:bg-gray-200">
+<li class="{{ if .IsAncestor $currentNode }}bg-gray-200 font-bold {{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}{{ end }}{{ if .Params.alwaysopen }} bg-gray-200{{ end }} py-1 rounded-lg hover:bg-gray-200 mb-2">
     <a class="px-6 block py-2 " href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
     {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
     {{if ne $numberOfPages 0}}
