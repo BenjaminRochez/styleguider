@@ -11,7 +11,5 @@ integration: false
 
 ## How to use
 
-
-
 {{< date-picker/birthdate text="birthdate">}}
 {{< /date-picker/birthdate >}}
