@@ -3,15 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://styleguider.netlify.com/getting-started/</loc>
+    <lastmod>2019-10-10T14:59:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://styleguider.netlify.com/visual-style/</loc>
+    <lastmod>2019-10-10T14:59:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://styleguider.netlify.com/ui-components/</loc>
+    <lastmod>2019-10-10T14:59:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/brand-assets/brand-assets/</loc>
+    <lastmod>2019-10-10T16:34:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/brand-assets/</loc>
+    <lastmod>2019-10-10T16:34:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/</loc>
+    <lastmod>2019-10-10T16:34:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/ui-components/alert/</loc>
+    <lastmod>2019-10-10T14:59:17+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://styleguider.netlify.com/tags/</loc>
   </url>
   
 </urlset>

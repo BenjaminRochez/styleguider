@@ -1,0 +1,25 @@
+{
+  "name": "guide-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/scss/tailwind.css -o static/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminRochez/styleguider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminRochez/styleguider/issues"
+  },
+  "homepage": "https://github.com/BenjaminRochez/styleguider#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.2"
+  }
+}
