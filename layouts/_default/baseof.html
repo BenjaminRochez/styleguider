@@ -9,8 +9,15 @@
     
 </head>
 <body>
-    {{- partial "nav.html" . -}}
-    {{ block "main" . }}
+    {{- partial "header.html" . -}}
+    <div class="flex items-start">
+        <div class="w-1/5">
+            {{- partial "nav.html" . -}}
+        </div>
+        <div class="w-4/5">
+            {{ block "main" . }}
+        </div>
+    </div>    
     {{ end }}
     <script src="{{"js/clipboard.min.js" | absURL}}"></script>
     <script src="{{"js/bundle.js" | absURL}}"></script>

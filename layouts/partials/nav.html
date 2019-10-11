@@ -1,7 +1,7 @@
 {{$currentNode := .}}
-<nav>
-    <ul>
-        <li class="{{ if .IsHome }}active{{ end }}"><a href="{{ .Site.BaseURL }}">Home</a></li>
+<nav class="flex px-6 py-3 border-r border-gray-400 text-sm">
+    <ul class="w-full">
+        <li class="{{ if .IsHome }}active{{ end }} h-8"><a class="px-6 block" href="{{ .Site.BaseURL }}">Home</a></li>
         {{- if eq .Site.Params.ordersectionsby "title" -}}
         {{- range .Site.Home.Sections.ByTitle -}}
         {{template "menu" dict "sect" . "currentnode" $currentNode}}
@@ -21,7 +21,8 @@
 {{ if in .Site.Params.menu_exclusion .Section }}
 {{- else -}}
 {{- safeHTML .Params.head -}}
-<li class="{{ if .IsAncestor $currentNode }}parent{{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active{{ end }}{{ if .Params.alwaysopen }} parent{{ end }}"><a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+<li class="{{ if .IsAncestor $currentNode }}bg-gray-200 font-bold {{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }}font-bold{{ end }}{{ if .Params.alwaysopen }} bg-gray-200{{ end }} py-1 rounded-lg hover:bg-gray-200">
+    <a class="px-6 block py-2 " href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
     {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
     {{if ne $numberOfPages 0}}
     <ul class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}">
@@ -51,7 +52,7 @@
 {{- end -}}
 {{- else -}}
 {{- if not .Params.Hidden -}}
-<li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a></li>
+<li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}font-bold{{ end }} font-thin px-10 py-2"><a href="{{ .Permalink }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a></li>
 {{- end -}}
 {{ end -}}
 {{ end -}}
