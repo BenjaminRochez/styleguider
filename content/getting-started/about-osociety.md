@@ -19,6 +19,6 @@ The purpose of our documentation is to be a partner who will help solve a proble
 
 There are 4 key aspects when working on Osociety ecosystem. Our goal is to meet somewhere in the middle – so everything we do is not just consistent or composable, but improves the work of our designers and developers and is maintainable in the long-term.
 
-![alt text](/img/consistency.png)
+![alt text](/img/consistency.png) 
 
 
