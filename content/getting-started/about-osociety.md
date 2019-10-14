@@ -17,3 +17,12 @@ This styleguide aims to bring order and consistency to OncoDNA platforms and pro
 The purpose of our documentation is to be a partner who will help solve a problem when people build with Osociety. We always aim to make our documentation available at the right moment and in the right context.
 
 ## TailwindCSS as main tool
+
+
+## Best middleground
+
+There are 4 key aspects when working on Osociety ecosystem. Our goal is to meet somewhere in the middle – so everything we do is not just consistent or composable, but improves the work of our designers and developers and is maintainable in the long-term.
+
+![alt text](/img/consistency.png)
+
+
