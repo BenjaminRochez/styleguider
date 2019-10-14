@@ -1,0 +1,33 @@
+{{.Inner}}
+
+{{ if eq (.Get "guideline") "true"}}
+<div class="p-6 rounded-lg border-green-200 border-4 border-l-28 mb-4"> 
+    <div class="">
+        <div class="mt-0 -ml-2 pl-2 relative font-bold mb-1">  
+            {{.Get "title" }}
+            <div class="guideline-icon flex items-center text-center"> 
+                <span class="bg-green-600 rounded-full w-4 h-4 text-center text-white leading-none inline-block m-auto">
+                    <i class="material-icons" style="font-size: 0.750rem!important">check</i>
+                </span>
+            </div>
+        </div>
+         <p class="text-sm">{{.Get "content" }}</p>
+    </div>
+</div>
+
+{{ else }}
+<div class="p-6 rounded-lg border-red-200 border-4 border-l-28 mb-4"> 
+    <div class="">
+        <div class="mt-0 -ml-2 pl-2 relative font-bold mb-1">  
+            {{.Get "title" }}
+            <div class="guideline-icon flex items-center text-center"> 
+                <span class="bg-red-600 rounded-full w-4 h-4 text-center text-white leading-none inline-block m-auto">
+                    <i class="material-icons" style="font-size: 0.750rem!important">close</i>
+                </span>
+            </div>
+        </div>
+         <p class="text-sm">{{.Get "content" }}</p>
+    </div>
+</div>
+{{end}}
+

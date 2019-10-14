@@ -13,3 +13,12 @@ integration: 'Planned'
 
 
 ## Badge types
+
+  
+## Guidelines  
+ 
+{{< guidelines/guideline title="Use badge to inform about a status" content="content goes here" guideline="true" >}}
+{{< /guidelines/guideline >}}  
+  
+{{< guidelines/guideline title="Use badge to inform about a status" content="content goes here" guideline="false" >}}
+{{< /guidelines/guideline >}}  

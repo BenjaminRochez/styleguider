@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/scss/tailwind.css -o static/css/tailwind.css"
+    "build": "postcss src/scss/tailwind.css -o static/css/tailwind.css",
+    "watch": "watch 'npm run build' ./src/scss"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "devDependencies": {
     "autoprefixer": "^9.6.4",
     "postcss-cli": "^6.1.3",
-    "tailwindcss": "^1.1.2"
+    "tailwindcss": "^1.1.2",
+    "watch": "^1.0.2"
   }
 }
+ 

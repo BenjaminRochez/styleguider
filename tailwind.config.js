@@ -1,6 +1,10 @@
 module.exports = {
     theme: {
-        extend: {}
+        extend: {
+            borderWidth: {
+                '28': '28px'
+            }
+        }
     },
     variants: {},
     plugins: []

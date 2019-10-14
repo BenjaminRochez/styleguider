@@ -7,7 +7,9 @@
     <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     <link rel="icon" href="{{"img/favicon.ico" | absURL}}" type="image/x-icon">
     <link rel="stylesheet" href="{{"css/tailwind.css" | absURL}}">
+    <link rel="stylesheet" href="{{"css/markdown.css" | absURL}}">
     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     {{- partial "header.html" . -}}

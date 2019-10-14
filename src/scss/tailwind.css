@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 
-blockquote {
-    @apply border-l-4 border-gray-300 pl-4 italic my-5;
-}
 
-blockquote p{
-    @apply text-gray-500;
-}
 
+.guideline-icon{
+  @apply bg-white absolute left-0 top-0 rounded-full w-6 h-6 text-center;    
+  transform: translate3d(-32px, 0, 0);
+}
