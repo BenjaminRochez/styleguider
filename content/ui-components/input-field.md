@@ -18,7 +18,27 @@ integration: "Released"
 ### Basic 
 {{< inputfields/basic >}}
 {{< /inputfields/basic >}}  
-     
+
+
+
+
+
+{{< inputfields/error >}}
+{{< /inputfields/error >}}    
+
+{{< inputfields/valide >}} 
+{{< /inputfields/valide >}}    
+
+
+{{< highlight html >}}
+{{< inputfields/basic >}}
+{{< /inputfields/basic >}}    
+{{< /highlight >}}
+
+{{< guidelines/guideline title="Color of the input must match the context" content="Whenever the context changes, the design input must be updated. Make use of the different colors provided wisely to help the user in their process of filling the form. Forms are the key part of our platforms." guideline="true" >}}
+{{< /guidelines/guideline >}}  
+   
+
 ### Icons
 
 ## Guidelines  
@@ -31,5 +51,5 @@ integration: "Released"
 ## Accessibility
 
 Screen readers will have trouble with your forms if you don’t include a label for every input. For these input groups, ensure that any additional label or functionality is conveyed to assistive technologies.
-
+ 
 The exact technique to be used and what additional information will need to be conveyed will vary depending on the exact type of interface widget you’re implementing. The examples in this section provide a few suggested, case-specific approaches.

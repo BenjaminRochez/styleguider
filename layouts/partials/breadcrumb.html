@@ -11,7 +11,7 @@
     {{ if eq .id .currentPage.File.UniqueID }}
     {{ .currentPage.Title }}
     {{ else }}
-    <a href="{{ .currentPage.Permalink }}">{{ .currentPage.Title }} /</a>
+    <a href="{{ .currentPage.Permalink }}">{{ .currentPage.Title }} / </a> 
     {{ end }}
 </li>
 {{ end }} 

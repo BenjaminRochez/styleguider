@@ -20,4 +20,7 @@ integration: "Released"
 {{< guidelines/guideline title="Different types of guidelines to give context to the user" content="content goes here" guideline="false" >}}
 {{< /guidelines/guideline >}}  
 
-
+{{< highlight html >}}
+{{< guidelines/guideline title="Use guidelines to help the user" content="content goes here" guideline="true" >}}
+{{< /guidelines/guideline >}} 
+{{< /highlight >}}
