@@ -1,4 +1,4 @@
-baseURL = "localhost:8888"
+baseURL = ""
 languageCode = "en-us"
 title = "Styleguider"
 sectionPagesMenu = "main"
