@@ -11,5 +11,15 @@
 	<atom:link href="https://styleguider.netlify.com/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>About Osociety</title>
+      <link>https://styleguider.netlify.com/getting-started/about-osociety/</link>
+      <pubDate>Fri, 11 Oct 2019 16:33:54 +0200</pubDate>
+      
+      <guid>https://styleguider.netlify.com/getting-started/about-osociety/</guid>
+      <description>This styleguide aims to bring order and consistency to OncoDNA platforms and processes behind building those We elevate user experience and increase the sped and efficiency of how we design and build products.
+Guide with documentation The purpose of our documentation is to be a partner who will help solve a problem when people build with Osociety. We always aim to make our documentation available at the right moment and in the right context.</description>
+    </item>
+    
   </channel>
 </rss>

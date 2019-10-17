@@ -8,6 +8,7 @@
     <link rel="icon" href="{{"img/favicon.ico" | absURL}}" type="image/x-icon">
     <link rel="stylesheet" href="{{"css/tailwind.css" | absURL}}">
     <link rel="stylesheet" href="{{"css/markdown.css" | absURL}}">
+    <link rel="stylesheet" href="{{"css/animation.css" | absURL}}">
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -18,7 +19,7 @@
             {{- partial "nav.html" . -}}
         </div>
         <div class="w-1/5"></div>  
-        <div class="w-4/5 py-16">
+        <div class="w-4/5 pt-16">
             {{ block "main" . }}
         </div>
     </div>    

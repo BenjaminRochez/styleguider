@@ -12,6 +12,40 @@
     
     
     <item>
+      <title>Input Field</title>
+      <link>https://styleguider.netlify.com/ui-components/input-field/</link>
+      <pubDate>Mon, 14 Oct 2019 15:38:46 +0200</pubDate>
+      
+      <guid>https://styleguider.netlify.com/ui-components/input-field/</guid>
+      <description>Content structure Input types Basic Sample id * This value can not be changed afterwards
+  Sample id * The sample ID you provided is not valid!
+  Sample id * This value can not be changed afterwards
+  &amp;lt;div class=&amp;#34;m-auto block&amp;#34; style=&amp;#34;width: 500px;&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;relative mt-5&amp;#34;&amp;gt; &amp;lt;label class=&amp;#34;absolute top-0 bg-white text-gray-700 px-1 &amp;#34; style=&amp;#34;transform: translate3d(13px, -12px, 0)&amp;#34; for=&amp;#34;example&amp;#34;&amp;gt;Sample id *&amp;lt;/label&amp;gt; &amp;lt;input class=&amp;#34;py-2 px-4 border-gray-900 bg-white rounded-md border-1 w-full&amp;#34; type=&amp;#34;text&amp;#34; id=&amp;#34;example&amp;#34; placeholder=&amp;#34;eg.</description>
+    </item>
+    
+    <item>
+      <title>Guideline</title>
+      <link>https://styleguider.netlify.com/ui-components/guideline/</link>
+      <pubDate>Mon, 14 Oct 2019 13:32:38 +0200</pubDate>
+      
+      <guid>https://styleguider.netlify.com/ui-components/guideline/</guid>
+      <description>Content structure Guideline types Use guidelines to help the user check    content goes here
+  Different types of guidelines to give context to the user close    content goes here
+  &amp;lt;div class=&amp;#34;p-6 rounded-lg border-green-200 border-4 border-l-28 mb-4&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;mt-0 -ml-2 pl-2 relative font-bold mb-1&amp;#34;&amp;gt; Use guidelines to help the user &amp;lt;div class=&amp;#34;guideline-icon flex items-center text-center&amp;#34;&amp;gt; &amp;lt;span class=&amp;#34;bg-green-600 rounded-full w-4 h-4 text-center text-white leading-none inline-block m-auto&amp;#34;&amp;gt; &amp;lt;i class=&amp;#34;material-icons&amp;#34; style=&amp;#34;font-size: 0.</description>
+    </item>
+    
+    <item>
+      <title>Badge</title>
+      <link>https://styleguider.netlify.com/ui-components/badge/</link>
+      <pubDate>Fri, 11 Oct 2019 15:45:14 +0200</pubDate>
+      
+      <guid>https://styleguider.netlify.com/ui-components/badge/</guid>
+      <description> Content structure Badge types Guidelines Use badge to inform about a status check    content goes here
+  Use badge to inform about a status close    content goes here
+  </description>
+    </item>
+    
+    <item>
       <title>Alert</title>
       <link>https://styleguider.netlify.com/ui-components/alert/</link>
       <pubDate>Thu, 10 Oct 2019 14:59:17 +0200</pubDate>

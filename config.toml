@@ -1,4 +1,4 @@
-baseURL = "https://styleguider.netlify.com"
+baseURL = "localhost:8080"
 languageCode = "en-us"
 title = "Styleguider"
 sectionPagesMenu = "main"
