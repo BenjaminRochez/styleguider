@@ -4,9 +4,10 @@ date: 2019-10-11T16:33:54+02:00
 lastmod: 2019-10-11T16:33:54+02:00
 draft: false
 description: "Osociety is an open source design system created for specific needs of OncoDNA healthcare applications ecosystems." 
+weight: 10
 ---
 
-This styleguide aims to bring order and consistency to OncoDNA platforms and processes behind building those We elevate user experience and increase the sped and efficiency of how we design and build products.
+This styleguide aims to bring order and consistency to OncoDNA platforms and processes behind building those We elevate user experience and increase the speed and efficiency of how we design and build products.
 
 ## Guide with documentation
 

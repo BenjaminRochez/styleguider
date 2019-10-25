@@ -525,6 +525,10 @@
     margin-bottom: 16px;
     margin-top: 0;
   }
+
+  .markdown-body ul{
+    list-style: initial;
+  }
   
   .markdown-body hr {
     background-color: #e1e4e8;
